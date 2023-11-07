@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #00243D;
+}
+/*main-container*/
+.main-container{
+    display: inline-block;
+    width: 100%;
+
+}
+.main-container header .one , nav , span{
+    display: inline-block;
+}
+
+
+header img{
+    width: 200px;
+    height: 150px;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li , span {
+    display: inline;
+    margin-left: 40px;
+    position: relative;
+    bottom: 4.5rem;
+    left: 28rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18.5px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #7ed957;
+}
+
+header span{
+    border: 1px solid #7ed957;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    color: #7ed957;
+}
+
+/*on*/
+.on{
+    padding-left: 6rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.on h3{
+    padding-bottom: 1rem;
+    color: #7ed957;
+}
+
+.on h1{
+    color: #d6eadf;
+    font-size: 37px;
+}
+.on h2{
+    color: #95a39c;
+    font-size: 39px;
+    line-height: 4rem;
+}
+.on p{
+    color: #97a393;
+    width: 40%;
+    line-height: 1.7rem;
+}
+
+/*.my*/
+.my h1{
+    padding: 3.5rem;
+    color: #d6eadf;
+    font-family: 'Courier New', Courier, monospace;
+    animation: show 2s ease  forwards ;
+}
+@keyframes show {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+/*two*/
+.two{
+    line-height: 3rem;
+    margin-left: 7rem;
+}
+
+.two .all,.al,.a{
+    display:flex ;
+}
+
+
+.two img {
+    width: 400px;
+    height: 300px;
+}
+
+.three img{
+    width: 400px;
+    height: 300px;
+}
+.two .all h2 , .e h2 , .f h2{
+    color: #7ed957;
+    padding-left: 3rem;
+    letter-spacing: 0.23rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+ .d p , .e p , .f p{
+    padding-left: 3rem;
+    color: #97a393;
+    font-size: 22px;
+    line-height: 2.5rem;
+    width: 100%;
+}
+/*footer*/
+footer{
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+footer .contact h1{
+    color: #d6eadf;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 2rem;
+}
+
+footer a{
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #95a39c;
+    cursor: pointer;
+}
+footer .contact p{
+    padding-top: 1rem;
+    color: #d6eadf;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 0.5rem;
+}
+footer .contact img{
+    width: 40px;
+    height: 30px;
+}
+footer .contact a:hover{
+    color: #7ed957;
+    font-size: 26px;
+}
+
+
+
+@media (max-width:400px){
+    
+
+header img{
+    width: 100px;
+    height: 75px;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li , span {
+    display: inline;
+    margin-left: 10px;
+    position: relative;
+    bottom: 3.5rem;
+    left: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15.5px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #7ed957;
+}
+
+header span{
+    border: 1px solid #7ed957;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    color: #7ed957;
+}
+
+/*on*/
+.on{
+    padding-left: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.on h3{
+    padding-bottom: 1rem;
+    color: #7ed957;
+}
+
+.on h1{
+    color: #d6eadf;
+    font-size: 30px;
+}
+.on h2{
+    color: #95a39c;
+    font-size: 27px;
+    line-height: 2.5rem;
+}
+.on p{
+    color: #97a393;
+    width: 100%;
+    line-height: 1.7rem;
+}
+
+
+/*two*/
+.two{
+    line-height: 3rem;
+    margin-left: 0.7rem;
+}
+
+.two .all,.al,.a{
+    display: flex;
+}
+
+
+.two img {
+    width: 35vw;
+    height: 20vh;
+    margin-top: 2.5rem;
+}
+
+.three img{
+    width: 35vw;
+    height: 20vh;
+}
+.two .all h2 , .e h2 , .f h2{
+    color: #7ed957;
+    padding-left: 0.5rem;
+    letter-spacing: 0.23rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+ .d p , .e p , .f p{
+    padding-left: 0.5rem;
+    color: #97a393;
+    font-size: 16px;
+    line-height: 2.5rem;
+    width: 60vw;
+}
+
+
+/*footer*/
+footer{
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+footer .contact h1{
+    color: #d6eadf;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 2rem;
+    font-size: 22px;
+}
+
+footer a{
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #95a39c;
+    cursor: pointer;
+}
+footer .contact p{
+    padding-top: 1rem;
+    color: #d6eadf;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 0.5rem;
+}
+footer .contact img{
+    width: 40px;
+    height: 30px;
+}
+footer .contact a:hover{
+    color: #7ed957;
+    font-size: 26px;
+}
+
+
+
+
+}
